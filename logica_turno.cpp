@@ -9,6 +9,24 @@ void procesarEleccionDado(int v[], int posicionDado, int &sumaSeleccionada, int 
     }
 
 
+int puntaje(int numeroObjetivo, int dadosUtilizados,int &puntajeJugador,
+			 int sumaSeleccionada, int dadosStock, bool &victoriaAutomatica, int &puntajeASumar){ // devuelve puntaje a sumar modificado
+
+	if(verificarJugada(sumaSeleccionada,numeroObjetivo,dadosUtilizados,dadosStock,victoriaAutomatica)==true){
+		if(victoriaAutomatica==true){
+			puntajeASumar=10000;
+			puntajeJugador+= puntajeASumar;
+		}
+		else{
+			puntajeASumar=numeroObjetivo*dadosUtilizados;
+			puntajeJugador+= puntajeASumar;
+		}
+        return puntajeASumar; // puntaje modificado segun si es victoria automatica o tirada exitosa
+	}
+	return puntajeASumar;  // 0
+}
+
+
 bool verificarJugada(int sumaSeleccionada, int numeroObjetivo, int dadosUtilizados,
 					 int dadosStock, bool &victoriaAutomatica){
     if (sumaSeleccionada == numeroObjetivo){ // verifica si la jugada fue exitosa
@@ -32,23 +50,3 @@ void dadosActualizados(int sumaSeleccionada, int numeroObjetivo, int &dadosStock
                 }
             }
 }
-
-
-int puntaje(int numeroObjetivo, int dadosUtilizados,int &puntajeJugador,
-			 int sumaSeleccionada, int dadosStock, bool &victoriaAutomatica, int &puntajeASumar){ // devuelve puntaje a sumar modificado
-
-	if(verificarJugada(sumaSeleccionada,numeroObjetivo,dadosUtilizados,dadosStock,victoriaAutomatica)==true){
-		if(victoriaAutomatica==true){
-			puntajeASumar=10000;
-			puntajeJugador+= puntajeASumar;
-		}
-		else{
-			puntajeASumar=numeroObjetivo*dadosUtilizados;
-			puntajeJugador+= puntajeASumar;
-		}
-        return puntajeASumar; // puntaje modificado segun si es victoria automatica o tirada exitosa
-	}
-	return puntajeASumar;  // 0
-}
-
-

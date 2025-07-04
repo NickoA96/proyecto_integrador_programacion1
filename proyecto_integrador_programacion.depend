@@ -109,7 +109,7 @@
 	"creditos.h"
 	"dibujo_lineas.h"
 
-1751603440 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\logica_turno.cpp
+1751626424 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\logica_turno.cpp
 	<iostream>
 	"logica_turno.h"
 
@@ -117,7 +117,7 @@
 
 1751564588 c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\turno_jugador.h
 
-1751606173 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\turno_jugador.cpp
+1751626424 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\turno_jugador.cpp
 	<iostream>
 	<string>
 	"turno_jugador.h"

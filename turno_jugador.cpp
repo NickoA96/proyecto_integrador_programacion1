@@ -23,7 +23,7 @@ void jugarTurno(int v[], int numeroObjetivo, int &dadosStock,
 	int vecPosicionDadosUtilizados[TAM]{};
 
 
-    while (numeroObjetivo > sumaSeleccionada) { // --> modificar a true, y en ese caso corta solamente cuando el jugador quiere o se queda sin dados
+    while (numeroObjetivo > sumaSeleccionada) {
         bool banderaTerminarTurno = false;
         mostrarDatosPartida(numeroObjetivo, sumaSeleccionada, nombreJugador, rondaNumero, puntajeJugador, dadosStock);
         int posicionDado = dadoElegido(v,dadosStock);

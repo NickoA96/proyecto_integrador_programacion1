@@ -50,8 +50,8 @@ void jugar(string nombreJugador1, string nombreJugador2, string &mejorJugador,
         }
 	}
 	resultadoFinal(nombreJugador1,nombreJugador2,puntajeJugador1,puntajeJugador2
-				   ,dadosStockJugador1,dadosStockJugador2,nombreGanador, existeGanador, puntajeGanador);
-    actualizarEstadistica(puntajeMax, mejorJugador, puntajeGanador,nombreGanador);
+				   ,dadosStockJugador1,dadosStockJugador2,nombreGanador, existeGanador, puntajeGanador); // --> mensaje resultado
+    actualizarEstadistica(puntajeMax, mejorJugador, puntajeGanador,nombreGanador);  // --> estadistica
 	pausar();
 }
 
