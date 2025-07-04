@@ -30,25 +30,25 @@ void jugarTurno(int v[], int numeroObjetivo, int &dadosStock,
 
 
         // verifica si el jugador quiere terminar el turno
-        if (terminarTurno(posicionDado, banderaTerminarTurno) == true){ // 0 -- true | != 0 false
-                if (banderaTerminarTurno){  // verifica si la bandera es true
-                    break;                  // en caso de que la bandera sea true, termina el turno
+        if (terminarTurno(posicionDado, banderaTerminarTurno) == true){
+                if (banderaTerminarTurno == true){
+                    break;
                 }else{
-                    continue;              // en caso de que la bandera sea false, reinicia para volver a pedir un dado
+                    continue;              // reinicia
                 }
             }
 
-        //actualizamos el dado para poder utilizarlo en el array
+        //resta uno al dado elegido
         posicionDado--;
 
 
-        if (dadoUsado(dadosUtilizados,vecPosicionDadosUtilizados, posicionDado) == true){continue;} // en caso de true saltea el resto del codigo y vuelve al principio del bucle
+        if (dadoUsado(dadosUtilizados,vecPosicionDadosUtilizados, posicionDado) == true){continue;}
 
         procesarEleccionDado(v, posicionDado, sumaSeleccionada, vecDadosElegidos, dadosUtilizados, vecPosicionDadosUtilizados); // procesa el dado
 
-        if(numeroObjetivo == sumaSeleccionada){break;} // corta el turno
+        if(numeroObjetivo == sumaSeleccionada){break;}
 
-        if (dadosUtilizados == dadosStock){break;} // corta el turno
+        if (dadosUtilizados == dadosStock){break;}
 
 
     limpiarConsola();
@@ -80,7 +80,7 @@ bool terminarTurno(int dado, bool &banderaTerminarTurno){
         cout <<" " <<(char)254 << " Esta seguro que desea terminar el turno? (0 -SI /1 - NO) : ";
         cin >> seleccion;
         if(seleccion == 0){
-            banderaTerminarTurno = true;  // --- en caso de que el jugador ponga 2 veces 0, o sea confirma que quiere terminar el turno
+            banderaTerminarTurno = true;
             return true;
         }else{
             return true; // en caso de que el jugador ponga 0 pero despues se arepiente, entonces puede volver a elegir un dado

@@ -3,8 +3,8 @@
 
 void procesarEleccionDado(int v[], int posicionDado, int &sumaSeleccionada, int vecDadosElegidos [], int &dadosUtilizados, int vecPosicionDadosUtilizados[]){
             sumaSeleccionada += v[posicionDado];
-			vecDadosElegidos[dadosUtilizados]= v[posicionDado];  // --> vector que muestra el valor de los dados utilizados
-            vecPosicionDadosUtilizados[dadosUtilizados] = posicionDado; // -->  vector que guarda el valor de las posiciones de los dados utilizados para no volverlo a utilizar
+			vecDadosElegidos[dadosUtilizados]= v[posicionDado];   // mostrar dados
+            vecPosicionDadosUtilizados[dadosUtilizados] = posicionDado; // verifcar dado usado
 			dadosUtilizados++;
     }
 

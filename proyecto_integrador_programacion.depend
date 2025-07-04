@@ -18,7 +18,7 @@
 
 1751491851 c:\users\n1cko\desktop\programacion utn 2025\programacion\pi prueba\tpavancesolo\proyecto_integrador_programacion\menu.h
 
-1751494542 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\dibujo_dados.cpp
+1751605447 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\dibujo_dados.cpp
 	<iostream>
 	"dibujo_dados.h"
 
@@ -54,7 +54,7 @@
 
 1751507215 c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\dibujo_lineas.h
 
-1751588495 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\estadistica.cpp
+1751605294 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\estadistica.cpp
 	<iostream>
 	"estadisitica.h"
 	"dibujo_lineas.h"
@@ -94,7 +94,7 @@
 	"mostrar_dados.h"
 	"dibujo_dados.h"
 
-1751587802 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\mensaje_resultado.cpp
+1751605358 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\mensaje_resultado.cpp
 	<iostream>
 	"mensaje_resultado.h"
 	"dibujo_lineas.h"
@@ -109,7 +109,7 @@
 	"creditos.h"
 	"dibujo_lineas.h"
 
-1751588386 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\logica_turno.cpp
+1751603440 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\logica_turno.cpp
 	<iostream>
 	"logica_turno.h"
 
@@ -117,7 +117,7 @@
 
 1751564588 c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\turno_jugador.h
 
-1751587802 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\turno_jugador.cpp
+1751606173 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\turno_jugador.cpp
 	<iostream>
 	<string>
 	"turno_jugador.h"
@@ -136,7 +136,7 @@
 
 1751523448 c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\nombre_jugadores.h
 
-1751580401 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\jugar.cpp
+1751604974 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\jugar.cpp
 	<iostream>
 	<string>
 	"jugar.h"

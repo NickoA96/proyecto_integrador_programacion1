@@ -79,7 +79,7 @@ void resultadoFinal(string nombreJugador1,string nombreJugador2,int puntajeJugad
     lineaSuperior();
 
 	if(puntajeJugador1!=puntajeJugador2){
-        existeGanador = true;  // BANDERA PARA MOSTRAR EN ESTADISTICA UN MSJ O EL OTRO
+        existeGanador = true;  // BANDERA PARA MOSTRAR EN ESTADISTICA UN MSJ O EL OTRO ESTADISTICA
 		if(puntajeJugador1>puntajeJugador2){
 			nombreGanador=nombreJugador1;
 			puntajeGanador= puntajeJugador1;
