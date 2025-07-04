@@ -1,0 +1,150 @@
+# depslib dependency file v1.0
+1751490475 source:c:\users\n1cko\desktop\programacion utn 2025\programacion\pi prueba\tpavancesolo\proyecto_integrador_programacion\dibujo_dados.cpp
+	<iostream>
+	"dibujo_dados.h"
+
+1751490475 c:\users\n1cko\desktop\programacion utn 2025\programacion\pi prueba\tpavancesolo\proyecto_integrador_programacion\dibujo_dados.h
+
+1751491801 source:c:\users\n1cko\desktop\programacion utn 2025\programacion\pi prueba\tpavancesolo\proyecto_integrador_programacion\dibujo_lineas.cpp
+	<iostream>
+	"diujo_lineas.h"
+
+1751491753 c:\users\n1cko\desktop\programacion utn 2025\programacion\pi prueba\tpavancesolo\proyecto_integrador_programacion\diujo_lineas.h
+
+1751491851 source:c:\users\n1cko\desktop\programacion utn 2025\programacion\pi prueba\tpavancesolo\proyecto_integrador_programacion\menu.cpp
+	<iostream>
+	"menu.h"
+	"diujo_lineas.h"
+
+1751491851 c:\users\n1cko\desktop\programacion utn 2025\programacion\pi prueba\tpavancesolo\proyecto_integrador_programacion\menu.h
+
+1751494542 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\dibujo_dados.cpp
+	<iostream>
+	"dibujo_dados.h"
+
+1751494582 c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\dibujo_dados.h
+
+1751511425 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\dibujo_lineas.cpp
+	<iostream>
+	"dibujo_lineas.h"
+
+1751491753 c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\diujo_lineas.h
+
+1751507278 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\menu.cpp
+	<iostream>
+	"menu.h"
+	"dibujo_lineas.h"
+	"utilidades.h"
+
+1751505597 c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\menu.h
+
+1751525030 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\main.cpp
+	<iostream>
+	<ctime>
+	<string>
+	"menu.h"
+	"definir_inicio.h"
+	"jugar.h"
+	"estadisitica.h"
+	"creditos.h"
+	"nombre_jugadores.h"
+	"utilidades.h"
+
+1751492299 c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\estadisitica.h
+
+1751507215 c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\dibujo_lineas.h
+
+1751588495 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\estadistica.cpp
+	<iostream>
+	"estadisitica.h"
+	"dibujo_lineas.h"
+
+1751495632 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\tirada_dados.cpp
+
+1751496631 c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\definir_inicio.h
+
+1751496921 c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\lanzamiento_dados.h
+
+1751497195 c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\utilidades.h
+
+1751497071 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\utilidades.cpp
+	<iostream>
+	"utilidades.h"
+
+1751524524 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\definir_inicio.cpp
+	<iostream>
+	<string>
+	"definir_inicio.h"
+	"lanzamiento_dados.h"
+	"dibujo_lineas.h"
+	"utilidades.h"
+
+1751526165 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\lanzamiento_dados.cpp
+	<iostream>
+	"lanzamiento_dados.h"
+	"utilidades.h"
+	"dibujo_lineas.h"
+	"dibujo_dados.h"
+	"mostrar_dados.h"
+
+1751564588 c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\mostrar_dados.h
+
+1751519961 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\mostrar_dados.cpp
+	<iostream>
+	"mostrar_dados.h"
+	"dibujo_dados.h"
+
+1751587802 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\mensaje_resultado.cpp
+	<iostream>
+	"mensaje_resultado.h"
+	"dibujo_lineas.h"
+	"utilidades.h"
+	"logica_turno.h"
+	"mostrar_dados.h"
+
+1751498813 c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\creditos.h
+
+1751583407 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\creditos.cpp
+	<iostream>
+	"creditos.h"
+	"dibujo_lineas.h"
+
+1751588386 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\logica_turno.cpp
+	<iostream>
+	"logica_turno.h"
+
+1751522015 c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\logica_turno.h
+
+1751564588 c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\turno_jugador.h
+
+1751587802 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\turno_jugador.cpp
+	<iostream>
+	<string>
+	"turno_jugador.h"
+	"utilidades.h"
+	"logica_turno.h"
+	"mostrar_dados.h"
+	"dibujo_lineas.h"
+	"mensaje_resultado.h"
+
+1751579709 c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\mensaje_resultado.h
+
+1751567831 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\nombre_jugadores.cpp
+	<iostream>
+	"nombre_jugadores.h"
+	"dibujo_lineas.h"
+
+1751523448 c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\nombre_jugadores.h
+
+1751580401 source:c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\jugar.cpp
+	<iostream>
+	<string>
+	"jugar.h"
+	"utilidades.h"
+	"turno_jugador.h"
+	"estadisitica.h"
+	"lanzamiento_dados.h"
+	"mensaje_resultado.h"
+
+1751523944 c:\users\n1cko\desktop\tpi\tpi programacion\proyecto_integrador_programacion\jugar.h
+

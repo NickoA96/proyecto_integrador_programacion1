@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="proyecto_integrador_programacion" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/proyecto_integrador_programacion" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/proyecto_integrador_programacion" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="creditos.cpp" />
+		<Unit filename="creditos.h" />
+		<Unit filename="definir_inicio.cpp" />
+		<Unit filename="definir_inicio.h" />
+		<Unit filename="dibujo_dados.cpp" />
+		<Unit filename="dibujo_dados.h" />
+		<Unit filename="dibujo_lineas.cpp" />
+		<Unit filename="dibujo_lineas.h" />
+		<Unit filename="estadisitica.h" />
+		<Unit filename="estadistica.cpp" />
+		<Unit filename="jugar.cpp" />
+		<Unit filename="jugar.h" />
+		<Unit filename="lanzamiento_dados.cpp" />
+		<Unit filename="lanzamiento_dados.h" />
+		<Unit filename="logica_turno.cpp" />
+		<Unit filename="logica_turno.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mensaje_resultado.cpp" />
+		<Unit filename="mensaje_resultado.h" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.h" />
+		<Unit filename="mostrar_dados.cpp" />
+		<Unit filename="mostrar_dados.h" />
+		<Unit filename="nombre_jugadores.cpp" />
+		<Unit filename="nombre_jugadores.h" />
+		<Unit filename="turno_jugador.cpp" />
+		<Unit filename="turno_jugador.h" />
+		<Unit filename="utilidades.cpp" />
+		<Unit filename="utilidades.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
